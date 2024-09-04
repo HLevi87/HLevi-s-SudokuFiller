@@ -6,11 +6,11 @@ import java.util.List;
 public class Main {
 
     /*
-    * Description:  This program takes a Sudoku talbe with preset numbers
+    * Description:  This program takes a Sudoku table with preset numbers
     *               and fills it out adhering to the rules of the game.
     *
-    * Functioning:  A Sudoku is represented by a 2-D array of Cells, which is 1 square out of the 80 total,
-    *               containing an integer (the correct number) and an integer list (the numbers possible is given Cell).
+    * Functioning:  A Sudoku is represented by a 2-D array of Cells, which is 1 square out of the 81 total,
+    *               containing an integer (the correct number) and an integer list (the numbers possible in given Cell).
     *               The code fills up the possible OCR'ed numbers, finds the first cell that has the shortest list
     *               of possible numbers, then starts "guessing" using these numbers and a recursive method.
     *
