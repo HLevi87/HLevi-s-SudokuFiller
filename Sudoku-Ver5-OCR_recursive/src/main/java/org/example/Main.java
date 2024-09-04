@@ -13,6 +13,7 @@ public class Main {
     *               containing an integer (the correct number) and an integer list (the numbers possible in given Cell).
     *               The code fills up the possible OCR'ed numbers, finds the first cell that has the shortest list
     *               of possible numbers, then starts "guessing" using these numbers and a recursive method.
+    *               On the terminal, the original and the final versions of the table are shown.
     *
     * Tests:        The package contains 3 screenshots from 3 different Sudoku puzzles (from a mobile app). With the
     *               use of AI, the pictures have been OCR'ed, giving 3 .txt files also included in the package.
